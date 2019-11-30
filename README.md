@@ -12,13 +12,13 @@ We use chromeless for Local development purpose, but you can also run in a remot
 
 ## Development
 
--[x] Calculator
+- [x] Calculator
 
--[x] Chromeless installation
+- [x] Chromeless installation
 
--[ ] Test Script
+- [ ] Test Script
 
--[ ] Automated Test
+- [ ] Automated Test
 
 
 ## Test Automation
@@ -45,6 +45,9 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
 ## Running the Project (Locally)
 
 1. Clone this Repository
+    ```
+    git clone https://github.com/almeraojr/test-automation.git
+    ```
 2. Head to your project directory, open a command prompt
     - type
     ```
@@ -63,6 +66,6 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
 ##### Ismael Vianna [`ismael-vianna@uergs.edu.br`]
 ##### Margrit Krug  [`margrit-krug@uergs.edu.br`]
 
-## Chromeless Repository
+## Original chromeless repository (Archived)
 
 [Chromeless](https://github.com/prisma-archive/chromeless)
