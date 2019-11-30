@@ -16,9 +16,9 @@ We use chromeless for Local development purpose, but you can also run in a remot
 
 - [x] Chromeless installation
 
-- [ ] Test Script
+- [x] Test Script
 
-- [ ] Automated Test
+- [x] Automated Test
 
 
 ## Test Automation
@@ -53,7 +53,7 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
     ```
     npm install chromeless
     ```
-3.  Then, run the script  
+3.  After the install, run the script  
     - type at the prompt
     ```
     node calculator_test.js
