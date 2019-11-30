@@ -49,7 +49,7 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
     git clone https://github.com/almeraojr/test-automation.git
     ```
 2. Head to your project directory, open a command prompt
-    - type
+    - type at the prompt
     ```
     npm install chromeless
     ```
@@ -66,6 +66,6 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
 ##### Ismael Vianna [`ismael-vianna@uergs.edu.br`]
 ##### Margrit Krug  [`margrit-krug@uergs.edu.br`]
 
-## Original chromeless repository (Archived)
+## Original chromeless repository (archived)
 
 [Chromeless](https://github.com/prisma-archive/chromeless)
