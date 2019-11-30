@@ -13,9 +13,13 @@ We use chromeless for Local development purpose, but you can also run in a remot
 ## Development
 
 -[x] Calculator
+
 -[x] Chromeless installation
+
 -[ ] Test Script
+
 -[ ] Automated Test
+
 
 ## Test Automation
 
