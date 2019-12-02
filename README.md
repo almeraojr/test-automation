@@ -1,6 +1,6 @@
-# Test automation for the SW test discipline
+# Test automation for the SW testing class
 
-This software testing project is a partial requirement for a grade in the quality and software test discipline at the State University of Rio Grande do Sul - UERGS. Was set up in late 2019 under the supervision of Professor Margrit R. Krug, Ph.D.
+This software testing project is a partial requirement for a grade in the quality and software testing class at the State University of Rio Grande do Sul - UERGS. Was set up in late 2019 under the supervision of Professor Margrit R. Krug, Ph.D.
 
 As they say:
 > May the force be with you!
@@ -27,12 +27,16 @@ We'll test it:
 
 - printscreen
     > .screenshots() 
-- existence of buttons (returns true or false)
+- existence of buttons 
     > .exists(#iDbutton)
 - click of buttons
     > .click(#iDbutton)
-- result stats
-    > .wait(#resultstats)
+- go to
+    > .goto('website')
+- type
+    > .type('text')
+- press
+    > .press('key')            
 
 All this are Chrome methods. With chromeless we can control Chrome. This is usefull for integration tests.    
 
@@ -49,14 +53,14 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
     git clone https://github.com/almeraojr/test-automation.git
     ```
 2. Head to your project directory, open a command prompt
-    - type
+    - type at the prompt
     ```
     npm install chromeless
     ```
-3.  After the install, run the script  
+3.  After the install, run the script calculator-test
     - type at the prompt
     ```
-    node calculator_test.js
+    node calculator-test.js
     ``` 
 
 ## Contributors
@@ -66,6 +70,6 @@ All this are Chrome methods. With chromeless we can control Chrome. This is usef
 ##### Ismael Vianna [`ismael-vianna@uergs.edu.br`]
 ##### Margrit Krug  [`margrit-krug@uergs.edu.br`]
 
-## Original chromeless repository (Archived)
+## Original chromeless repository (archived)
 
 [Chromeless](https://github.com/prisma-archive/chromeless)

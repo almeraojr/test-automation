@@ -1,6 +1,4 @@
 
-// TEST SCRIPT
-
 // This script click on calculator's buttons and multiply 13 by 24. You can now replace/add buttons to click. :D
 
 const { Chromeless } = require('chromeless')
@@ -17,7 +15,6 @@ async function run() {
     .click('#two')
     .click('#four')
     .click('#DoIt')
-    .wait('#resultStats')
   console.log(calculando_teste) // everything ok :D
 
 
